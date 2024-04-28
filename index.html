@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <title>Mediclinic Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="//db.onlinewebfonts.com/c/d5f93e1b825e0f1729dc143050cadf84?family=Semplicita+Pro" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/73817f2f80.js" crossorigin="anonymous"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Navbar Section-->
+    <div class="container-header" id="home-navbar">
+        <div class="navbar">
+            <img src="image/logo-web2.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home-navbar">HOME</a></li>
+                    <li><a href="#edu-section">EDUCATION</a></li>
+                    <li><a href="#row-news">NEWS</a></li>
+                    <li><a href="#footer-aboutus">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel Slide Photo -->
+    <!-- Auto Swipe Slide Photo -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!-- Carousel Slide 1 -->
+            <div class="carousel-item active" style="background-image:url(image/subcarousel1.jpg)">
+                <div class="container1">
+                    <h1>Informasi Mitos Fakta Seputar Kesehatan</h1>
+                    <p>Kemudahan informasi tentang masalah kesehatan di dunia maya tak selamanya valid. 
+                    Di platform ini, kami menyediakan beragam edukasi dan informasi seputar kesehatan</p>
+                </div>
+            </div>
+            <!-- Carousel Slide 2 -->
+            <div class="carousel-item" style="background-image:url(image/subcarousel2.jpg)">
+                <div class="container2">
+                    <h1>Tips Menjaga Kesehatan Mental Remaja saat Pandemi</h1>
+                    <p>Menghadapi situasi baru ini bukanlah hal yang mudah untuk para remaja. 
+                        Maka berikan pengertian pada remaja untuk bisa menyadari bahwa kecemasannya 
+                        adalah hal yang wajar</p>
+                </div>
+            </div>
+            <!-- Carousel Slide 3 -->
+            <div class="carousel-item" style="background-image:url(image/subcarousel3.jpg)">
+                <div class="container3">
+                    <h1>Menjaga Kenyamanan dan Kebersihan saat Menstruasi</h1>
+                    <p>Menstruasi adalah kondisi normal yang dialami wanita setiap bulan. 
+                        Darah yang keluar sering kali membuat para wanita tidak nyaman, 
+                        lantas bagaimana cara meminimalisir hal tersebut?</p>
+                </div>
+            </div>
+            <!-- Carousel Slide 4 -->
+            <div class="carousel-item" style="background-image:url(image/subcarousel4.jpg)">
+                <div class="container4">
+                    <h1>Pentingnya Kesehatan Masyarakat dalam Perekonomian Negara</h1>
+                    <p>Banyak negara menghabiskan anggaran yang sangat besar di sektor
+                        kesehatan agar penduduknya menjadi lebih sehat karena SDM yang baik
+                        akan meningkatkan perekonomian negara pula. Berikut penjelasan menurut
+                        para ekonom.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Container Education -->
+    <section class="title-edu" id="edu-section">
+        <h1>Edukasi Kesehatan</h1>
+    </section>
+
+    <!-- Edu 1 -->
+    <div class="container-edu">
+        <div class="card-edu">
+           <div class="videow">
+              <video src="image/roleplay.mp4" autoplay muted loop>
+           </div>
+           <div class="top-text">
+                <div class="name">
+                    Video Roleplay
+                </div>
+                <p>
+                    Peran Perawat
+                </p>
+           </div>
+           <div class="bottom-text">
+                <div class="text">
+                    Perawat bukan hanya bertugas untuk membantu kesehatan pasien, tapi juga memberi pendidikan kepada pasien maupun keluarga dan lingkungannya. Peran perawat ini diharapkan mampu mengubah...
+                </div>
+                <div class="btn">
+                    <a href="https://www.youtube.com/watch?v=3tY2Ou1QQRw&t=553s">More</a>
+                </div>
+           </div>
+        </div>
+
+        <!-- Edu 2 -->
+        <div class="card-edu">
+            <div class="videow">
+                <video src="image/roleplay2.mp4" autoplay muted loop>
+             </div>
+           <div class="top-text">
+                <div class="name">
+                    Kesehatan Mental
+                </div>
+                <p>
+                    Peran Keluarga
+                </p>
+           </div>
+           <div class="bottom-text">
+                <div class="text">
+                    Masalah kesehatan mental telah mempengaruhi anak-anak dan remaja termasuk depresi, kecemasan dan gangguan perilaku, yang seringkali merupakan respons langsung...
+                </div>
+                <div class="btn">
+                    <a href="https://www.youtube.com/watch?v=dnetnetYb1k">More</a>
+                </div>
+           </div>
+        </div>
+
+        <!-- Edu 3 -->
+        <div class="card-edu">
+            <div class="videow">
+                <video src="image/roleplay3.mp4" autoplay muted loop>
+             </div>
+           <div class="top-text">
+                <div class="name">
+                    Apa itu Lasik?
+                </div>
+                <p>
+                    Ketahui Ini!
+                </p>
+           </div>
+           <div class="bottom-text">
+                <div class="text">
+                    LASIK semakin sering didengar banyak orang dan digembor-gemborkan sebagai solusi permanen untuk bebas dari alat bantu baca. Sesuai namanya, LASIK sebagai...
+                </div>
+                <div class="btn">
+                    <a href="https://www.youtube.com/watch?v=kTMMrAP6DNI">More</a>
+                </div>
+           </div>
+        </div>
+
+        <!-- Edu 4 -->
+        <div class="card-edu">
+            <div class="videow">
+                <video src="image/roleplay4.mp4" autoplay muted loop>
+            </div>
+        <div class="top-text">
+            <div class="name">
+                Artificial Intelligence
+            </div>
+            <p>
+                Teknologi Kesehatan
+            </p>
+        </div>
+        <div class="bottom-text">
+            <div class="text">
+                Mesin atau robot yang dapat berjalan secara otomatis dan melakukan tugas-tugas kompleks dengan cepat. Sekarang, semua itu telah dapat kita lihat secara langsung dalam berbagai aktivitas, termasuk dalam bidang layanan kesehatan...
+            </div>
+            <div class="btn">
+                <a href="https://www.youtube.com/watch?v=0xSSonMIqBk">More</a>
+            </div>
+        </div>
+        </div>
+
+        <!-- Edu 5 -->
+        <div class="card-edu">
+            <div class="videow">
+                <video src="image/roleplay5.mp4" autoplay muted loop>
+            </div>
+        <div class="top-text">
+            <div class="name">
+                Healing?
+            </div>
+            <p>
+                TEDxCooperRiverWomen
+            </p>
+        </div>
+        <div class="bottom-text">
+            <div class="text">
+                Who would you be if you could let go of your past? Growing up Lena endured a lot of hardships many of which she didn’t understand as a child. As she...
+            </div>
+            <div class="btn">
+                <a href="https://www.youtube.com/watch?v=TZyVbhCSyu8&t=1s">More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edu 6 -->
+    <div class="card-edu">
+        <div class="videow">
+            <video src="image/roleplay6.mp4" autoplay muted loop>
+         </div>
+       <div class="top-text">
+            <div class="name">
+                Heal The World
+            </div>
+            <p>
+                Versi Angklung Nakes & Pasien RSDC Wisma Atlet
+            </p>
+       </div>
+       <div class="bottom-text">
+            <div class="text">
+                Lagu Heal The World karya Michael Jackson ini dinyanyikan ratusan tenaga kesehatan dan pasien di Rumah Sakit Darurat Covid-19 Wisma Atlet Kemayoran, Selasa (23/03/2021)...
+            </div>
+            <div class="btn">
+                <a href="https://www.youtube.com/watch?v=jmktj36f2Go">More</a>
+            </div>
+       </div>
+    </div>
+</div>
+
+
+    <!-- Card Description Section -->
+    <section class="tanyadokter">
+        <h1>Tanya Dokter</h1>
+        <p>Butuh informasi kesehatan yang akurat? hubungi dokter dan temukan solusinya</p>
+    </section>
+    
+    <!-- Card Slide Section - Doctors Information -->
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+
+                <!-- Card Image 1 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/1doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Victoria Rachel</h2>
+                        <p class="deskripsi">Dokter Spesialis Gizi</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+                
+                <!-- Card Image 2 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/2doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Azalea Handayani</h2>
+                        <p class="deskripsi">Dokter Spesialis Mata</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+
+                <!-- Card Image 3 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/3doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Kezia Nasyidah</h2>
+                        <p class="deskripsi">Dokter Spesialis Paru</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+
+                <!-- Card Image 4 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/4doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Zelda Palastri</h2>
+                        <p class="deskripsi">Dokter Spesialis Bedah Umum</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+
+                <!-- Card Image 5 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/5doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Gilda Puspita</h2>
+                        <p class="deskripsi">Dokter Spesialis Gizi</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+
+                <!-- Card Image 6 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/6doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Bakiman Wijaya</h2>
+                        <p class="deskripsi">Dokter Spesialis Anak</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+
+                <!-- Card Image 7 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="image/7doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Kariman Ramadan</h2>
+                        <p class="deskripsi">Dokter Spesialis Konservasi Gigi</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+
+                <!-- Card Image 8 -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="image/8doc.png" alt="" class="card-img1">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="nama">dr. Kairav Hutasoit</h2>
+                        <p class="deskripsi">Dokter Spesialis Bedah Ortopedi</p>
+                        <button class="button">KONSULTASI</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Prev - Card Slide Button - Next -->
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+    </div>
+    
+    <!-- Row Cards - Berita Kesehatan -->
+    <section class="row" id="row-news" style="background-color: #87c4c8;">
+        <h1>Berita Kesehatan Terbaru</h1>
+
+        <!-- Row Cards 1 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita1.jpg" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">WHO mengganti nama cacar monyet?</h5>
+                    <p class="card-text">Penamaan spesies virus menjadi tanggung jawab International Committee on the Taxonomy of Viruses (ICTV) yang saat ini sedang memproses nama virus cacar monyet...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 2 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita2.jpeg" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Ratusan Mahasiswa dan IRT Bandung Kena HIV</h5>
+                    <p class="card-text">Geger kabar ratusan mahasiswa dan Ibu Rumah Tangga (IRT) di Bandung positif HIV. Kabar itu mengacu pada data Komisi Penanggulangan AIDS (KPA) Kota Bandung...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 3 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita3.jpg" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Trauma Gegara 'Dipijit' Sampai Lebam</h5>
+                    <p class="card-text">Saat kejadian, ia berpikir hal ini merupakan bagian dari pengobatan. Namun, saat pijatan terasa nyeri, ia sempat meminta psikiater untuk menghentikan tindakan...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 4 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita4.jpeg" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Ada 23 Suspek Pasien Cacar Monyet di RI</h5>
+                    <p class="card-text">Satgas Cacar Monyet (Monkeypox) Ikatan Dokter Indonesia (IDI) memaparkan data terbaru kasus cacar monyet di Indonesia. Menyusul satu kasus cacar monyet yang terkonfirmasi...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 5 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita5.webp" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">MGI dukung proyek Genom Nasional</h5>
+                    <p class="card-text">Inovator global di bidang life science MGI Tech Co. Ltd. (MGI) mengumumkan bahwa Proyek Genom Nasional di Indonesia telah memilih MGI Technology sebagai...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 6 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita6.jpeg" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Kelas Terbaru BPJS Kesehatan</h5>
+                    <p class="card-text">Pemerintah memastikan akan meniadakan kelas Jaminan Kesehatan Nasional (JKN) BPJS Kesehatan yang ada...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 7 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita7.jpeg" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Berupaya Tekan Angka Stunting</h5>
+                    <p class="card-text">Pemerintah Kota (Pemkot) Batu melalui Dinas Kesehatan (Dinkes) menargetkan bisa menurunkan angka stunting di masyarakat. Sebab itu, Dinkes Kota Batu...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 8 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita8.webp" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Solusi Memperpendek Jarak Pelayanan</h5>
+                    <p class="card-text">Menurutnya, peserta JKN yang datang di kantor dinsos dari kalangan menengah ke bawah dan kebanyakan kurang mampu dari...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Cards 9 -->
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="cards" style="width: 18rem;">
+                <img src="image/berita9.webp" class="card-img-top" alt="...">
+                <div class="cards-body">
+                    <h5 class="card-title" style="text-align: center;">Parade Jalan Sehat Gerakan Sulsel Anti Mager</h5>
+                    <p class="card-text" style="text-align: left;">Gubernur Sulawesi Selatan Andi Sudirman didampingi Ketua Tim Penggerak Pemberdayaan Kesejahteraan Keluarga (PKK) Sulsel Naoemi Octarina melepas...</p>
+                    <button href="#" class="btn btn-primary" style="background-color: #35858B;">Cari Tahu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer - About Us -->
+    <section class="footer" id="footer-aboutus">
+        <h4>ABOUT US</h4>
+        <p>Mediclinic website adalah pelayanan kesehatan berbasis online yang merupakan salah satu program Klinik Mediclinic Inc. <br>Diharapkan nantinya melalui website ini, para pasien atau pengguna dapat berkonsultasi dengan dokter melalui chat dan mendapatkan edukasi serta berita kesehatan terkini.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    
+
+    <!-- Links -->
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.js"> </script>
+<script src="js/script.js"> </script>
+
+</html>

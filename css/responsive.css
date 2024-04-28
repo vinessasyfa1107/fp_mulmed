@@ -1,0 +1,6 @@
+@media(min-width:670px) and (max-width:1024px){
+    .container-fluid, .bg-blue{
+        display: flex;
+        
+    }
+}

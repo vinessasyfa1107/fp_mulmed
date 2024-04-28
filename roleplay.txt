@@ -1,0 +1,47 @@
+html
+<img src="image/stetoskop.png" width="290" height="300" class="img-stetoskop">
+<img src="image/roleplay3.png" width="580" height="320" class="img-rp3">
+<img src="image/roleplay4.png" width="580" height="320" class="img-rp4">
+<img src="image/heart.png" width="290" height="300" class="img-heart">
+<img src="image/medicine.png" width="250" height="250" class="img-medic">
+
+css
+#videorp{
+    filter: drop-shadow(15px 15px #35858B);
+    margin-left: -80px;
+}
+#videorp2{
+    filter: drop-shadow(15px 15px #35858B);
+    margin-left: 400px;
+}
+.bg-img, .bg-blue{
+    display: flex;
+    align-items: center;
+    margin-top: -600px;
+    margin-left: -15px;
+    margin-bottom: -50px;
+    
+}
+.img-stetoskop{
+    margin-top: -800px;
+    margin-left: 10px;
+}
+.img-rp3{
+    filter: drop-shadow(15px 15px #35858B);
+    margin-top: -500px;
+    margin-left: 280px;
+}
+.img-rp4{
+    filter: drop-shadow(15px 15px #35858B);
+    margin-top: -500px;
+    margin-left: 400px;
+}
+.img-heart{
+    margin-top: -1300px;
+    margin-left: -1070px
+}
+.img-medic{
+    margin-top: -170px;
+    margin-left: 830px;
+}
+
